@@ -1,0 +1,71 @@
+CEC CS 18 C64
+Anandhu Anish
+--------------------------------
+#1: Aim/task
+convert pdf to text file
+---------------------------------
+Command/Shell script/Program name
+
+pdftotext -layout result1.pdf result.txt
+---------------------------------
+
+Input: (If relevant)
+---------------
+a pdf.
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+a text file.
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:Aim/task
+grep values of cs.
+---------------------------------
+Command/Shell script/Program name
+
+grep 'CHN18CS' result.txt
+---------------------------------
+
+Input: (If relevant)
+---------------
+result file
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+values of cs.
+
+-------------------
+Remarks if any:
+
+
+
+
+
+#3:Aim/task
+delete data who got grade 'f' and save otheres in another file.
+---------------------------------
+Command/Shell script/Program name
+
+grep -v 'F' a.txt> b.txt
+---------------------------------
+
+Input: (If relevant)
+---------------
+a.txt file with 'f' grade.
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+b.txt file without 'f' grade.
+
+-------------------
+Remarks if any:
+
+#4:
+
+#5:
+

@@ -1,0 +1,31 @@
+CEC CS 18 C64
+Anandhu Anish
+--------------------------------
+#1: Aim/task
+Scripting Task
+---------------------------------
+Command/Shell script/Program name
+
+S1/script.txt
+---------------------------------
+
+Input: (If relevant)
+---------------
+result downloaded
+s1/result_CHN.pdf
+student details file
+s1/class.txt
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+a text file with reg no. and sgpa.
+#final.txt
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------

@@ -1,0 +1,87 @@
+CEC CS 18 c64
+Anandhu Anish
+
+--------------------------------
+#1: familiarisation of linux commands
+---------------------------------
+Command/Shell script/Program name
+
+file creation
+cat > abc.txt
+sort -n fn
+sort -nk7 fn
+cut -b fn
+cut -c fn
+paste 1fn 2nd fn 
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+an unsorted file.
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+sorted file.
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2: terminate processes
+-------------------------------------
+Command/Shell script/Program name
+
+$kill -l
+$kill pid
+ps
+
+-------------------------------------
+Input: (If relevant)
+
+some files
+---------------
+a file abc.txt.
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+process viewed.
+-------------------
+Remarks if any:
+
+
+
+
+
+#3:search
+-------------------------------------
+Command/Shell script/Program name
+
+grep
+
+
+-------------------------------------
+Input: (If relevant)
+
+file abc.txt
+searching for 'a'
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+ 'a' finded two times.
+
+sorted file.
+-------------------
+Remarks if any:
+#4:
+
+#5:
+
+
+

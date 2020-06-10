@@ -1,0 +1,81 @@
+CEC CS 18 64  
+Anandhu Anish  
+Date 25/03/2020
+                 
+--------------------------------
+#1: Aim/task
+t8.2  Perl
+---------------------------------
+Command/Shell script/Program name
+
+
+#!/usr/bin/abc
+
+print "hello world\n";                     # to print
+---------------------------------
+
+Input: (If relevant)
+abc.py  #script file
+------------
+#two input from key boadr for arithmetic operation
+#addition,multiplication,division and difference of two numbers
+#finding a number is positive or negative using if else
+#array operations
+#insertion in array
+#removing from array
+#string reversal using loop statement
+
+
+print (reverse(s))  #reversal
+
+num1 = input('Enter first number: ') #input from keyboard
+
+lst = [ ] 
+n = int(input("Enter number of elements : ")) #array input
+      
+a.remove('4') #remove array
+
+if(condition)
+else ()  #if else statement
+
+		
+		
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+#Enter no 5
+enter no 5
+sum 10
+dif 0
+mul 25
+div 1
+
+
+#string reversal
+Anandhu
+uhdnanA
+
+#array operation
+insert 5
+removed 5
+
+#positive or negative
+enter no 0
+zero
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+

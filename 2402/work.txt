@@ -1,0 +1,657 @@
+s4c2@ceclab2-H110M-S2:~/ceccs18c64/cs232/2402$ su
+Password: 
+su: Authentication failure
+s4c2@ceclab2-H110M-S2:~/ceccs18c64/cs232/2402$ su admin1
+Password: 
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo apt-get install vsftpd
+[sudo] password for admin1: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 38 not upgraded.
+Need to get 115 kB of archives.
+After this operation, 336 kB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 vsftpd amd64 3.0.3-3ubuntu2 [115 kB]
+Fetched 115 kB in 0s (360 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package vsftpd.
+(Reading database ... 223552 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.3-3ubuntu2_amd64.deb ...
+Unpacking vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vsftpd (3.0.3-3ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ script work.txt
+Script started, file is work.txt
+script: cannot open work.txt: Permission denied
+                                               Script done, file is work.txt
+Segmentation fault (core dumped)
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo apt-get install vsftpd
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 38 not upgraded.
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ exit
+exit
+s4c2@ceclab2-H110M-S2:~/ceccs18c64/cs232/2402$ script exit
+Script started, file is exit
+s4c2@ceclab2-H110M-S2:~/ceccs18c64/cs232/2402$ su admin1
+Password: 
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo apt-get install vsftpd
+[sudo] password for admin1: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 38 not upgraded.
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo apt-get install apache2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+0 upgraded, 9 newly installed, 0 to remove and 38 not upgraded.
+Need to get 1,546 kB of archives.
+After this operation, 6,375 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+Name (localhost:admin1): ^Cadmin1@ceclab2-H110M-S2:/home/ssudo gedit /etc/vsftpd.confftp localhost 
+
+(gedit:5650): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5650): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ service vsftpd restart
+Failed to restart vsftpd.service: Access denied
+See system logs and 'systemctl status vsftpd.service' for details.
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vsftpd restart
+500 OOPS: cannot read config file: restart
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo service vsftpd restart
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ 
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vsftpd restart
+500 OOPS: cannot read config file: restart
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo service vsftpd restart
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo service vsftpd stop
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo service vsftpd start
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vsftpsd sudo: vsftpsd: command not found
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo gedit /etc/vsftpd.conf
+
+(gedit:5866): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5866): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ ftp 192.168.0.75
+Connected to 192.168.0.75.
+500 OOPS: vsftpd: cannot locate user specified in 'chown_username':whoever
+ftp> ^C
+ftp> ^Z
+[1]+  Stopped                 ftp 192.168.0.75
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo gedit /etc/vsftpd.conf
+
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ ping 192.168.0.175
+PING 192.168.0.175 (192.168.0.175) 56(84) bytes of data.
+64 bytes from 192.168.0.175: icmp_seq=1 ttl=64 time=0.186 ms
+64 bytes from 192.168.0.175: icmp_seq=2 ttl=64 time=0.274 ms
+64 bytes from 192.168.0.175: icmp_seq=3 ttl=64 time=0.187 ms
+64 bytes from 192.168.0.175: icmp_seq=4 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.175: icmp_seq=5 ttl=64 time=0.183 ms
+64 bytes from 192.168.0.175: icmp_seq=6 ttl=64 time=0.181 ms
+64 bytes from 192.168.0.175: icmp_seq=7 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.175: icmp_seq=8 ttl=64 time=0.182 ms
+64 bytes from 192.168.0.175: icmp_seq=9 ttl=64 time=0.185 ms
+64 bytes from 192.168.0.175: icmp_seq=10 ttl=64 time=0.244 ms
+^C
+--- 192.168.0.175 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9201ms
+rtt min/avg/max/mdev = 0.179/0.198/0.274/0.033 ms
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo gedit /etc/vsftpd.conf
+
+(gedit:5987): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:5987): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:5987): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^C
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim /etc/vsftpd.conf
+sudo: vim: command not found
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim /etc/vsftpd.conf
+sudo: vim: command not found
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim/etc/vsftpd.conf
+sudo: vim/etc/vsftpd.conf: command not found
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo Vim /etc/vsftpd.conf
+sudo: Vim: command not found
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim /etc/vsftpd.conf
+sudo: vim: command not found
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo get-install vim
+sudo: get-install: command not found
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo apt-get install vim
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  vim-runtime
+Suggested packages:
+  ctags vim-doc vim-scripts vim-gnome-py2 | vim-gtk-py2 | vim-gtk3-py2 | vim-athena-py2 | vim-nox-py2
+The following NEW packages will be installed:
+  vim vim-runtime
+0 upgraded, 2 newly installed, 0 to remove and 38 not upgraded.
+Need to get 6,214 kB of archives.
+After this operation, 30.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 vim-runtime all 2:7.4.1689-3ubuntu1.3 [5,179 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 vim amd64 2:7.4.1689-3ubuntu1.3 [1,036 kB]
+Fetched 6,214 kB in 7s (835 kB/s)                                                                                                             
+Selecting previously unselected package vim-runtime.
+(Reading database ... 223609 files and directories currently installed.)
+Preparing to unpack .../vim-runtime_2%3a7.4.1689-3ubuntu1.3_all.deb ...
+Adding 'diversion of /usr/share/vim/vim74/doc/help.txt to /usr/share/vim/vim74/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim74/doc/tags to /usr/share/vim/vim74/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:7.4.1689-3ubuntu1.3) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../vim_2%3a7.4.1689-3ubuntu1.3_amd64.deb ...
+Unpacking vim (2:7.4.1689-3ubuntu1.3) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up vim-runtime (2:7.4.1689-3ubuntu1.3) ...
+Setting up vim (2:7.4.1689-3ubuntu1.3) ...
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vim (vim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vimdiff (vimdiff) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rvim (rvim) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/rview (rview) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/vi (vi) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/view (view) in auto mode
+update-alternatives: using /usr/bin/vim.basic to provide /usr/bin/ex (ex) in auto mode
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ 
+
+
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ ftp 192.168.0.75
+Connected to 192.168.0.75.
+220 (vsFTPd 3.0.3)
+Name (192.168.0.75:admin1): s4c2
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+drwxr-xr-x    2 1011     1011         4096 Jan 31 09:38 Desktop
+drwxr-xr-x    2 1011     1011         4096 Jan 31 09:38 Documents
+drwxr-xr-x    2 1011     1011         4096 Jan 31 09:38 Downloads
+drwxr-xr-x    2 1011     1011         4096 Jan 31 09:38 Music
+drwxr-xr-x    2 1011     1011         4096 Feb 24 09:59 Pictures
+drwxr-xr-x    2 1011     1011         4096 Jan 31 09:38 Public
+drwxr-xr-x    2 1011     1011         4096 Jan 31 09:38 Templates
+drwxr-xr-x    2 1011     1011         4096 Jan 31 09:38 Videos
+drwxrwxr-x    3 1011     1011         4096 Feb 10 09:01 ceccs18c47
+-rw-r--r--    1 1011     1011         8980 Jan 24 09:18 examples.desktop
+-rw-rw-r--    1 1011     1011         2858 Feb 10 11:09 index.html
+226 Directory send OK.
+ftp> put a.txt
+local: a.txt remote: a.txt
+local: a.txt: No such file or directory
+ftp> lcd
+Local directory now /home/s4c2/ceccs18c64/cs232/2402
+ftp> put a.txt
+local: a.txt remote: a.txt
+200 PORT command successful. Consider using PASV.
+150 Ok to send data.
+226 Transfer complete.
+ftp> ls^Z
+[2]+  Stopped                 ftp 192.168.0.75
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim /etc/vsftpd.conf
+
+[3]+  Stopped                 sudo vim /etc/vsftpd.conf
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim /etc/vsftpd.conf
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim /etc/vsftpd.conf
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo service vsftpd restart
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo vim /etc/vsftpd.conf
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ sudo service vsftpd restart
+
+
+admin1@ceclab2-H110M-S2:/home/s4c2/ceccs18c64/cs232/2402$ cd /
+admin1@ceclab2-H110M-S2:/$ ls
+bin    dev         initrd.img.old  media  root  srv  var
+boot   etc         lib             mnt    run   sys  vmlinuz
+cdrom  home        lib64           opt    sbin  tmp  vmlinuz.old
+core   initrd.img  lost+found      proc   snap  usr
+admin1@ceclab2-H110M-S2:/$ cd var
+admin1@ceclab2-H110M-S2:/var$ ls
+backups  crash  local  log   metrics  run   spool
+cache    lib    lock   mail  opt      snap  tmp
+admin1@ceclab2-H110M-S2:/var$ ls lo
+local/ lock/  log/   
+admin1@ceclab2-H110M-S2:/var$ ls loc
+local/ lock/  
+admin1@ceclab2-H110M-S2:/var$ ls local/
+admin1@ceclab2-H110M-S2:/var$ cd ..
+admin1@ceclab2-H110M-S2:/$ ls usr/
+bin  games  include  lib  local  locale  sbin  share  src
+admin1@ceclab2-H110M-S2:/$ sudo apt-get install apache2
+[sudo] password for admin1: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+0 upgraded, 9 newly installed, 0 to remove and 38 not upgraded.
+Need to get 1,546 kB of archives.
+After this operation, 6,375 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libapr1 amd64 1.5.2-3 [86.0 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1 amd64 1.5.4-1build1 [77.1 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-dbd-sqlite3 amd64 1.5.4-1build1 [10.6 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-ldap amd64 1.5.4-1build1 [8,720 B]
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.1-0 amd64 5.1.5-8ubuntu1 [102 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.14 [930 kB]
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.14 [82.1 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-data all 2.4.18-2ubuntu3.14 [162 kB]
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2 amd64 2.4.18-2ubuntu3.14 [86.5 kB]
+Fetched 1,546 kB in 1s (904 kB/s) 
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 225318 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.5.2-3_amd64.deb ...
+Unpacking libapr1:amd64 (1.5.2-3) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../libaprutil1-ldap_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package liblua5.1-0:amd64.
+Preparing to unpack .../liblua5.1-0_5.1.5-8ubuntu1_amd64.deb ...
+Unpacking liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../apache2-bin_2.4.18-2ubuntu3.14_amd64.deb ...
+Unpacking apache2-bin (2.4.18-2ubuntu3.14) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.18-2ubuntu3.14_amd64.deb ...
+Unpacking apache2-utils (2.4.18-2ubuntu3.14) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.18-2ubuntu3.14_all.deb ...
+Unpacking apache2-data (2.4.18-2ubuntu3.14) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.18-2ubuntu3.14_amd64.deb ...
+Unpacking apache2 (2.4.18-2ubuntu3.14) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Setting up libapr1:amd64 (1.5.2-3) ...
+Setting up libaprutil1:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Setting up liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Setting up apache2-bin (2.4.18-2ubuntu3.14) ...
+Setting up apache2-utils (2.4.18-2ubuntu3.14) ...
+Setting up apache2-data (2.4.18-2ubuntu3.14) ...
+Setting up apache2 (2.4.18-2ubuntu3.14) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+admin1@ceclab2-H110M-S2:/$ 
+
+admin1@ceclab2-H110M-S2:/var/www/html$ sudo vim index.html
+admin1@ceclab2-H110M-S2:/var/www/html$ sudo vim index.html
+admin1@ceclab2-H110M-S2:/var/www/html$ sudo gedit index.html
+
+(gedit:8850): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8850): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+admin1@ceclab2-H110M-S2:/var/www/html$ sudo gedit index.html
+
+(gedit:8874): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8874): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+^Z
+[7]+  Stopped                 sudo gedit index.html
+admin1@ceclab2-H110M-S2:/var/www/html$ ifconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:67:57  
+          inet addr:192.168.0.162  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::fe50:72:ffb9:e4b9/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:249428 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15809 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:46629095 (46.6 MB)  TX bytes:1560495 (1.5 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:1074 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1074 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:155614 (155.6 KB)  TX bytes:155614 (155.6 KB)
+
+admin1@ceclab2-H110M-S2:/var/www/html$ 
+
+

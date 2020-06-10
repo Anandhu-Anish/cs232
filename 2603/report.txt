@@ -1,0 +1,45 @@
+CEC CS 18 C64  		26-03-2020
+Anandhu Anish  
+
+--------------------------------
+#1: t8.4
+	Kernal Compilation
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+        	# Download the latest stable kernel (source: kernel.org)
+	        wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.xz
+				 
+	# Extract the source code from downloaded file
+	unxz -v linux-5.5.9.tar.xz
+												
+			# Download the PGP Signature for the kernel  file
+			wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.9.tar.sign
+
+	# Verify the kernel tartball with GnuPG
+	gpg --verify linux-5.5.9.tar.sign
+	
+	         # Extract the tartball
+			tar xvf linux-5.5.9.tar
+		 	cd linux-5.5.9
+
+	# create the configuration file (copied the existing config for convinience) 
+	
+			
+			# Install Development tools required to compile the kernel
+			sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+	
+	# Compiled the kernal
+	make -j $(nproc)
+	
+	
+--------------------------------
+Output: 
+
+	# Compiled Kernel at /linux-5.5.9
+
+-------------------
+Remarks if any:
+    #Cant upload any screen shot becuse i am using "TERMUX" in my android phone.

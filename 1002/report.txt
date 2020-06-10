@@ -1,0 +1,143 @@
+CEC CS 18 C64
+Anandhu Anish
+
+--------------------------------
+#1: (t3)Networking Tasks
+---------------------------------
+Command/Shell script/Program name
+
+ifconfig -a
+route -n
+route add default gw 192.168.0.2
+ping 192.168.0.1
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+        # ifconfig -a displays all available network interfaces
+	 # route -n displays kernal routing table
+	# route add, is used add a new route to the table,
+ # route add default gw 192.168.0.2, a default gateway in this case
+ # pinging the network
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+#2:(t4)ssh,rsync,scp
+---------------------------------
+Command/Shell script/Program name
+
+ssh
+rsync
+scp
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+# ssh cs18c64@192.168.0.30, is used to open a secured connection to remote device
+# rsync -av 1002/ filennm/, is used to sync the files across 1002/ and filenm/ 
+# scp report.txt cs18c64@192.168.0.30:2701, this is used to upload report.txt to 1002/ in the host 192.168.0.30
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+#3:(t5)ftp usage
+---------------------------------
+Command/Shell script/Program name
+
+sftp cs18c64@192.168.0.30
+	ls
+	put report.txt
+	lcd ..
+	lpwd
+	pwd
+	get work.txt
+	rm work.txt
+	quit
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+	#ls ,used to list out files.
+        # put report.txt, upload report.txt
+	# lcd .., change local directory 
+	# lpwd, show local present working directory
+	#pwd ,to show server directory
+	# get work.txt, copy work.txt from host to local system
+	# rm work.txt, remove work.txt from host
+	# quit, quit current ftp session
+
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+#4:(t9)create own web page
+Command/Shell script/Program name
+
+uses the sample index file(http://192.168.0.30/cs17d/cs17d00)
+To put the page to the server sftp
+To edit the contents of .html file using gedit or nano
+	 	
+---------------------------------
+
+Input: (If relevant)
+---------------
+index.html
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+       page created and details are displayed.
+	link are properly working.
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
+#5:
+
+
+

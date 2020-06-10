@@ -1,0 +1,40 @@
+
+CEC CS 18 c64 02-03-2020
+Anandhu Anish
+
+--------------------------------
+#1: Aim/task 6
+
+linux installation
+
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+
+a cd drive need
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+#CD not work properly
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
